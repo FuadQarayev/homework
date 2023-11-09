@@ -1,0 +1,102 @@
+.div-1{
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+}
+#list-1{
+    color: #6d0202; 
+    margin-left: 40px;
+}
+#list-2{
+    color: #6d0202;
+    margin-left: 70px;
+}
+#list-3{
+    color: blue;
+    margin-left: 70px;
+}
+#list-5{
+    color: blue; 
+    margin-left: 40px;
+}
+#item-1{
+    border: 1px dashed black;
+}
+.div .item-1{
+    border-color: black;
+    border-style: dashed;
+    border-width: 3px;
+}
+#par-9{
+    background-color: white;
+    color: black;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+}
+#par-10{
+    background-color: white;
+    color: black;
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+}
+#par-11{
+    background-color: white;
+    color: black;
+    border-top-color: red  ;
+    border-right-color: green ;
+    border-bottom-color: blue;
+    border-left-color: yellow;
+    border-style: solid;
+    border-width: 2px;
+}
+.container{
+border: 3px solid blue;
+padding: 20px ;
+}
+ .heading1{ 
+    border-top-color: #6d0202;
+    border-top-style: solid;
+    border-bottom-color: #6d0202 ;
+    border-bottom-style: solid ;
+}
+.div-3{
+    background-color: azure;
+    width: 300px;
+    height: 150px;
+    .heading-3{
+        color: blueviolet;
+        border-color: blueviolet;
+        border-style: dotted;
+        border-width: 3px;
+    }
+    .heading-4{
+        color: red;
+        border-color: red;
+        border-style: solid;
+        border-width: 3px;
+    }
+    .heading-5{
+        color: green;
+        border-color: white;
+        border-top-style: groove;
+        border-left-style: groove;
+        border-width: 10px ;
+    }
+}
+#button1{
+    width: 300px;
+    height: 30px;
+    background-color: #77cc6d;
+}
+#button2{
+    width: 150px;
+    height: 30px;
+    background-color: #2ac4ea;
+}
+#button3{
+    width: 200px;
+    height: 30px;
+    background-color: #f6653c;
+}
