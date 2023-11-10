@@ -1,0 +1,37 @@
+body{
+    background-color: bisque;
+}
+.container{
+    width: 100% ;
+    text-align: center;
+}
+.div-1{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 20px;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.heading1{
+    color: blue;
+}
+.par-1{
+    color: grey;
+    line-height: 25px;
+}
+button{
+    background-color: white;
+    color: blue;
+    padding: 10px 45px;
+    border: solid;
+    border-radius: 2px;
+    margin-top: 30px;
+}
+.but-1{
+    border-right-style: none;
+}
+.but-2{
+    border-left-style: none;
+}

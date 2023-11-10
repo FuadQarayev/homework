@@ -1,0 +1,17 @@
+.par-1{
+    color: brown;
+}
+.container{
+    width: 300px;
+    height: 100px;
+    background-color: grey;
+}
+.par-2{
+    margin: 20px;
+}
+.par-3{
+    color: blueviolet;
+}
+.par-4{
+    font-style: italic;
+}

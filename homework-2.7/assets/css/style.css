@@ -1,0 +1,26 @@
+.heading1{
+    color: black;
+    font-size:  2rem;
+    font-weight: bolder;
+}
+p span{
+    border: solid;
+    border-width: 2px;
+    border-color: grey;
+}
+.span-2{
+    border: double;
+    border-width: 2px;
+    background-color: red;
+    border-color: grey;
+}
+.heading2{
+    background-color: yellow;
+    font-size: 2rem;
+}
+.par-1 span{
+    border-style: double;
+    background-color: green;
+    border-width: 2px;
+    border-color: gray;
+}

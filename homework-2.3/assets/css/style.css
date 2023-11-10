@@ -1,0 +1,23 @@
+.container{
+    background-color: aqua;
+    width: 100%;
+    height: 200px;
+    padding: 20px 100px;
+}
+.div-1{
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+    display: inline-block;
+    margin-top: 80px;
+}
+.div-2{
+    color: white;
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 80px;
+}
+.div-2 span{
+    margin-right: 20px;
+    font-size: 20px;
+}
