@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:orange;
+    width: 100%;
+    height: 800px;
+}
+.section1{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    margin: 30px;
+}
+.section1 span{
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 30px 20px 0;
+}
+.section2{
+    position: relative;
+    text-align: right;
+}
+.section2 .box-2{
+    padding-top: 0;
+    margin-top: 0;
+}
+.section2 .box-2 img{
+    width: 300px;
+    padding-top: 0;
+}

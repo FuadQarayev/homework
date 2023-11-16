@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;600&family=Roboto:ital,wght@0,400;0,500;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+    background-image: url('./image/cofferee.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+}
+header{
+    padding: 70px 0;
+}
+header h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #e6a756;
+}
+header h2{
+    font-size: 80px;
+    font-weight: 100;
+    color: white;
+}
+.navbar{
+    padding: 24px 0;
+    background-color: rgba(47, 23, 15, 0.9);
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-size: 600;
+}
+.section1{
+    position:relative;
+    margin-top: 100px;
+}
+.box-1{
+    width: 400px;
+    height: 150px;
+    background-color: #F6E1C5;
+    position: absolute;
+    left: 65%;
+    margin-top: 15%;
+    top: -40%;
+    padding: 40px 30px;
+    text-align: left;
+}
+.box-1 span{
+    font-size: 15px;
+    font-weight: 900;
+}
+.box-1 .span-1{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+.box-3{
+    background-color:#F6E1C5;
+    width: 700px;
+    height: 200px;
+    left: 10%;
+    position: absolute;
+    bottom: -20%;
+    text-align: left;
+    border-radius:7px;
+}
+.box-3 p{
+    font-family:  Helvetica Neue, Arial, sans-serif,
+    font-size: 18px;
+    padding: 20px 40px;
+    line-height: 1.75;
+}
+.section2{
+    position:relative;
+    margin-top: 400px;
+}
+.box-4{
+    width: 500px;
+    height: 180px;
+    background-color: #F6E1C5;
+    position: absolute;
+    right: 60%;
+    margin-top: 8%;
+    top: -40%;
+    padding: 50px 30px;
+    text-align: left;
+}
+.box-4 span{
+    font-size: 15px;
+    font-weight: 900;
+}
+.box-4 .span-1{
+    font-size: 3rem;
+    font-weight: 100;
+}
+.box-6{
+    background-color:#F6E1C5;
+    width: 700px;
+    height: 180px;
+    right: 10%;
+    position: absolute;
+    bottom: -20%;
+    text-align: left;
+    border-radius:7px;
+}
+.box-6 p{
+    font-family:  Helvetica Neue, Arial, sans-serif,
+    font-size: 18px;
+    padding: 50px 40px;
+    line-height: 1.75;
+}
+.section3{
+    position:relative;
+    margin-top: 300px;
+}
+.box-7{
+    width: 700px;
+    height: 150px;
+    background-color: #F6E1C5;
+    position: absolute;
+    left: 45%;
+    margin-top: 15%;
+    top: -60%;
+    padding: 40px 30px;
+    text-align: left;
+}
+.box-7 span{
+    font-size: 15px;
+    font-weight: 900;
+}
+.box-7 .span-1{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+.box-9{
+    background-color:#F6E1C5;
+    width: 700px;
+    height: 200px;
+    left: 10%;
+    position: absolute;
+    bottom: -20%;
+    text-align: left;
+    border-radius:7px;
+}
+.box-9 p{
+    font-family:  Helvetica Neue, Arial, sans-serif,
+    font-size: 18px;
+    padding: 50px 40px;
+    line-height: 1.75;
+}
