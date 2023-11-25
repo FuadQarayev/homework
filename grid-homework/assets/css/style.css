@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 600px;
+    height: 400px;
+    background-color: blueviolet;
+}
+.grid-container{
+    padding: 100px auto;
+    display: grid;
+}
+.item1{
+    background-color:rgba(64, 241, 0, 0.801);
+}
