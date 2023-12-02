@@ -1,0 +1,56 @@
+.container{
+    width: 80%;
+    height: 800px;
+    background-color:burlywood;
+}
+.transform h1{
+    font-size: 64px;
+    font-weight: 600;
+    padding: 100px 0 ;
+}
+.transform{
+    text-align: center;
+}
+.rotate{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+.rotatex{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blue;
+    transition: .5s;
+}
+.rotatex:hover{
+    transform: rotateX(180deg);
+}
+.rotatey{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blue;
+    transition: .5s;
+}
+.rotatey:hover{
+    transform: rotateY(180deg);
+}
+.rotatez{
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.rotatez:hover{
+    transform: rotateZ(135deg);
+}

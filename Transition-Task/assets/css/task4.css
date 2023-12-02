@@ -1,0 +1,72 @@
+.content{
+    /* width: 80%;
+    height: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box-animation{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    transition: all 2s ease-in-out;
+}
+.box-animation:hover .box1{
+    transform: rotate(90deg);
+    transform-origin: top left;
+    transition-duration: 1s;
+}
+.box-animation:hover .box2{
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    transition-duration: 1s;
+}
+.box-animation:hover .box3{
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+    transition-duration: 1s;
+}
+.box-animation:hover .box4{
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    transition-duration: 1s;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: -85px;
+    top:0;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    right: 285px;
+    top: 0;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 285px;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    bottom:0;
+    left: -85px;
+}

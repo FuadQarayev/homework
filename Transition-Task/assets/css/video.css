@@ -1,0 +1,30 @@
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+}
+.main-button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.but-1{
+    width: 150px;
+    border: none;
+    background-color: white;
+    border-top: 2px solid red;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.but-4{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    border:none;
+    background-color: red;
+    color: white;
+}

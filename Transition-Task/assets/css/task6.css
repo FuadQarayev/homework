@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+}
+span{
+    animation-name:span;
+    animation-duration:2s;
+    animation-fill-mode:forwards;
+    /* animation-iteration-count:infinite; */
+    animation-delay: calc(.4s*var(--i));
+    animation-timing-function: ease-in-out;
+}
+@keyframes span {
+    from{
+        font-size: 16px;
+    }
+    to{
+        font-size: 32px;
+        color: green;
+    }
+}

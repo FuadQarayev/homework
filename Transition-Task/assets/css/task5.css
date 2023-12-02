@@ -1,0 +1,38 @@
+.container{
+    width: 40%;
+    height: 300px;
+}
+h1{
+    text-align: center;
+    color:green;
+    font-size: 64px;
+}
+h3{
+    text-align:center;
+}
+h2{
+    width: 100%;
+    animation-name:text;
+    animation-duration: 2s ;
+    animation-iteration-count:infinite;
+}
+.text1{
+    animation-direction: normal;
+}
+.text2{
+    animation-direction:reverse;
+}
+.text3{
+    animation-direction:alternate;
+}
+.text4{
+    animation-direction:alternate-reverse;
+}
+@keyframes text {
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: 600px;
+    }
+}

@@ -1,0 +1,59 @@
+.container{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.animated{
+    border: 2px solid black;
+}
+.animated div{
+    /* border: 2px solid black; */
+    width: 40%;
+    height: 3rem;
+    background-color: blue;
+    animation-name: first-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+.not-animated{
+    border:2px solid black;
+}
+.not-animated div{
+    width: 40%;
+    height: 3rem;
+    background-color: blue;
+    animation-name: second-animation;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-timing-function: step-start;
+}
+
+@keyframes first-animation {
+    0%{
+        width: 20%;
+    }
+    50%{
+        width: 40%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes second-animation {
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 20%;
+    }
+    75%{
+        width: 40%;
+    }
+    100%{
+        width: 60%;
+    }
+}

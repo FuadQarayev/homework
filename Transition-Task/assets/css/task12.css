@@ -1,0 +1,35 @@
+.container{
+    width: 80%;
+    height: 630px;
+    border-top: 40px solid black;
+    border-bottom: 40px solid black;
+}
+.item{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin: 60px;
+    animation-name: mykeyframes;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+}
+@keyframes mykeyframes {
+    0%{
+        background-color:brown;
+    }
+    20%{
+        background-color:blueviolet;
+    }
+    40%{
+        background-color: tomato
+    }
+    60%{
+        background-color:darkolivegreen;
+    }
+    80%{
+        background-color: fuchsia;
+    }
+    100%{
+        background-color:limegreen;
+    }
+}

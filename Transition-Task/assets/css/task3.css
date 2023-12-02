@@ -1,0 +1,35 @@
+.container{
+    width: 80%;
+    height: 400px;
+}
+h1{
+    font-size: 26px;
+    font-weight: 600;
+}
+.item{
+    display: block;
+    gap: 50px;
+}
+.item1{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    transition: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    margin-bottom: 20px;
+}
+.item1:hover{
+    width: 300px;
+}
+.item2{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    transition: 1s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+}
+.item2:hover{
+    width: 300px;
+}
